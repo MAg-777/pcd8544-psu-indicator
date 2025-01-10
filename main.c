@@ -151,7 +151,7 @@ int main(void)
 		volts = volts * 6.2f - 0.005f * amps;
 		power = amps * volts;
 		
-		pcd8544_clear();
+		//pcd8544_clear();
 		
 		pcd8544_print_at("U=", 1, 2);
 		print_value(volts, 3, 2);
